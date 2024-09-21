@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: bold, Tahoma;
+}
+
+.navbar {
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 0;
+}
+
+.navbar{
+    box-shadow: 
+                20px -20px 54px #017497;
+}
+
+.nav-link {
+    float: right;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 38px 30px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: #003140;
+    color: rgb(255, 255, 255);
+}
+
+.Welcome {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: bold, Tahoma;
+    z-index: 1; 
+    text-align: center;
+}
+
+.Welcome{
+    border-radius: 75px;
+    background-color: #343a3b;
+    opacity: 0.9;
+    box-shadow: -20px 20px 54px #017497,
+                20px -20px 54px #017497;
+    width: 40%;
+    
+}
+
+.Welcome:hover{
+    width: 50%;
+    transition: all ease-in-out 0.5s;
+}
+
+.HDesign {
+    margin-top: 95px; 
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid #003140
+    
+
+}
+
+.CenterImg {    
+    width: 100%;
+    height: 550px;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    filter: blur(2px);
+}
+
+.LogoLeft{
+    position: absolute;
+    height: 125px; 
+    float: left; 
+    left: 25px; 
+    top: 0px;
+    width: 160px;
+    margin: 0;
+   
+}
+
+.Bus{
+   text-align: center;
+   margin-top: 50px;
+   color: rgb(255, 255, 255);
+   font-size: 40px;
+   font-family: bold, Tahoma;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.Bus{
+    border-radius: 75px;
+    background-color: #343a3b;
+    opacity: 0.9;
+    box-shadow: -20px 20px 54px #017497,
+                20px -20px 54px #017497;
+    width: 30%;
+}
+
+.description{
+    text-align: center;
+    max-width: 750px;            
+    margin: 0 auto;             
+    padding: 7px;
+    overflow-wrap: break-word; 
+    margin-bottom: 200px;
+}
+
+.description{
+    font-size: 22px;
+}
+
+.cictL{
+    position: absolute;  
+    top: 800px;             
+    left: 0;            
+    height: 250px;       
+    width: auto;         
+    margin-left: 230px;     
+
+}
+
+.cictL-hover{
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.cictL:hover {
+    transform: scale(1.1); 
+}
+
+.wvsuL{
+    position: absolute;  
+    top: 800px;             
+    right: 0;            
+    height: 250px;       
+    width: auto;         
+    margin-right: 230px;     
+
+}
+
+.wvsuL-hover{
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.wvsuL:hover {
+    transform: scale(1.1); 
+}
+
+
+.container{
+    margin: 50px 0 0 250px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px
+}
+
+.Info{
+   text-align: center;
+   margin-top: 50px;
+   color: rgb(255, 255, 255);
+   font-size: 20px;
+   font-family: bold, Tahoma;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+.Info{
+    border-radius: 75px;
+    background-color: #343a3b;
+    opacity: 0.9;
+    box-shadow: -20px 20px 54px #017497,
+                20px -20px 54px #017497;
+    width: 20%;
+}
+
+.container img{
+    width: 5%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #252525;
+    transition: all ease-in-out 0.5s;
+    
+}
+
+.container img:hover{
+    width: 60%;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;        
+    align-items: center;         
+    text-align: center;           
+    width: 30%;                    
+    padding: 15px;                 
+}
+
+.person h2 {
+    margin: 10px 0;               
+}
+
+.person ol {
+    list-style-type: disc;       
+    padding: 0;                    
+}
+
+.person ol li {
+    margin-top: 10px;              
+}
+
+.Hobby{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: bold, Tahoma;
+    border-radius: 75px;
+    background-color: #343a3b;
+    opacity: 0.9;
+    box-shadow: -20px 20px 54px #017497,
+                20px -20px 54px #017497;
+    width: 28%;
+}
+
